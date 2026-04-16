@@ -1,1 +1,47 @@
-
+{
+  "expo": {
+    "name": "PlayBox",
+    "slug": "playbox",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a1a2e"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.raphbrr30.playbox",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a1a2e"
+      },
+      "package": "com.raphbrr30.playbox"
+    },
+    "platforms": ["ios", "android"],
+    "experiments": {
+      "reactCompiler": false
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1c92b6d3-5c0a-4e33-832b-be55d3c971e1"
+      }
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1c92b6d3-5c0a-4e33-832b-be55d3c971e1"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
