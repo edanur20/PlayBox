@@ -1,1 +1,29 @@
+# Ignorer les fichiers inutiles pour EAS Build
+node_modules/
+.git/
+*.log
+.DS_Store
+.expo/
+dist/
+web-build/
 
+# Ignorer les dossiers système Windows
+AppData/
+NTUSER.DAT*
+ntuser.dat*
+Desktop/
+Downloads/
+Documents/
+Pictures/
+Videos/
+Music/
+Favorites/
+Contacts/
+Links/
+Searches/
+*.tmp
+
+# Fichiers de cache
+.cache/
+*.bak
+Thumbs.db
